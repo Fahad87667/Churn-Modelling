@@ -32,7 +32,7 @@ st.markdown("""
 
 # Header section
 st.title('Customer Churn Prediction App')
-st.image('churn2.png',use_column_width=True)
+st.image('churn2.png',width=600)
 st.markdown('**:dart: This Streamlit app predicts customer churn for a fictional business.**')
 
 
