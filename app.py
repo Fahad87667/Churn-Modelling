@@ -58,7 +58,7 @@ with st.form(key='customer_details_form'):
     submit_button = st.form_submit_button(label='Predict')
     
 st.sidebar.header(':bulb: Prediction Result')
-st.sidebar.image('churn.jpg', use_column_width=True)
+st.sidebar.image('churn.png', use_column_width=True)
 # Convert categorical inputs after form submission
 if submit_button:
     # Preprocess the data as required for prediction
